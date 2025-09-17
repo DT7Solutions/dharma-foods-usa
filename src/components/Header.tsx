@@ -50,7 +50,8 @@ export const Header: React.FC = () => {
               <img 
                 src={logoImage} 
                 alt="Dharmafoods USA - Integrity, Fairness, Respect, Love" 
-                className="h-12 w-auto"
+                className="logo"
+                style={{height:"88px", width:"auto"}}
                 onError={(e) => {
                   // Fallback to text logo if image fails to load
                   e.currentTarget.style.display = 'none';
@@ -82,7 +83,7 @@ export const Header: React.FC = () => {
             <div className="hidden lg:flex">
               <Button
                 onClick={() => setIsEnquiryModalOpen(true)}
-                className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-8 py-2 h-12 shadow-accent transition-smooth hover:shadow-accent/60 hover:scale-105 min-w-[120px]"
+                className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-8 py-0 h-10 shadow-accent transition-smooth hover:shadow-accent/60 hover:scale-105 min-w-[140px]"
               >
                 Enquiry
               </Button>

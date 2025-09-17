@@ -84,7 +84,7 @@ export const Hero: React.FC = () => {
                 variant="outline"
                 size="lg"
                 onClick={() => document.querySelector('#products')?.scrollIntoView({ behavior: 'smooth' })}
-                className="border-2 border-white text-white hover:bg-white hover:text-primary font-semibold text-lg px-8 py-4 h-14 transition-smooth"
+                className="border-2 border-white text-primary hover:bg-white hover:text-primary font-semibold text-lg px-8 py-4 h-14 transition-smooth"
               >
                 View Products
               </Button>

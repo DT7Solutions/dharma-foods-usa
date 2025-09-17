@@ -149,16 +149,16 @@ export const Footer: React.FC = () => {
               Official distributor of <span className="text-accent font-semibold">Swetha Telugu Foods</span>.
             </div>
             
-            <div className="flex space-x-6 text-sm">
-              <a href="#" className="text-white/80 hover:text-white transition-smooth">
-                Privacy Policy
+            <div className="flex space-x-6 text-sm">Crafted by &nbsp;
+              <a href="https://dt7.agency/" className="hover:text-white transition-smooth text-accent font-semibold" target='_blank'>
+                Dt7.agency
               </a>
-              <a href="#" className="text-white/80 hover:text-white transition-smooth">
+              {/* <a href="#" className="text-white/80 hover:text-white transition-smooth">
                 Terms of Service
               </a>
               <a href="#" className="text-white/80 hover:text-white transition-smooth">
                 Food Safety
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

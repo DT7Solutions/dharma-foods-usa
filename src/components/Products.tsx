@@ -38,7 +38,8 @@ export const Products: React.FC = () => {
     {
       name: "Oil & Ghee",
       description: "Pure oils and traditional ghee processed using time-tested methods",
-      icon: "🫗",
+      icon: "💧",
+      // 🫗
       features: ["Cold-pressed oils", "Pure ingredients", "Health benefits"]
     }
   ];
@@ -90,7 +91,7 @@ export const Products: React.FC = () => {
           {productCategories.map((category, index) => (
             <Card key={index} className="group hover:shadow-card transition-smooth border-border/50 hover:border-primary/20 overflow-hidden">
               <CardContent className="p-8">
-                <div className="text-center mb-6">
+                <div className="text-left mb-6">
                   <div className="text-5xl mb-4 group-hover:scale-110 transition-transform">
                     {category.icon}
                   </div>

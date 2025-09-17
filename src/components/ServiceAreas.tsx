@@ -73,10 +73,12 @@ export const ServiceAreas: React.FC = () => {
           <Badge variant="outline" className="text-primary border-primary/20 bg-primary/5 mb-4">
             Service Coverage
           </Badge>
-          
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold bg-gradient-states bg-clip-text text-transparent mb-6">
+           <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-primary mb-6">
+              Serving 5 States <span className="text-secondary">Across the Southeast</span>
+            </h2>
+          {/* <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold bg-gradient-states  text-transparent mb-6">
             Serving 5 States Across the Southeast
-          </h2>
+          </h2> */}
           
           <p className="text-lg text-muted-foreground leading-relaxed">
             Our extensive distribution network ensures reliable delivery of authentic Telugu foods 
@@ -99,15 +101,15 @@ export const ServiceAreas: React.FC = () => {
                       <span className="text-lg font-semibold opacity-90">
                         {state.abbreviation}
                       </span>
-                      <div className="flex items-center space-x-2 text-sm">
+                      {/* <div className="flex items-center space-x-2 text-sm">
                         <Clock className="w-4 h-4" />
                         <span>{state.deliveryTime}</span>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                   
                   {/* Background Pattern */}
-                  <div className="absolute top-0 right-0 w-20 h-20 opacity-20">
+                  <div className="absolute top-0 right-0 w-10 h-20 opacity-20 mx-3">
                     <MapPin className="w-full h-full" />
                   </div>
                 </div>
