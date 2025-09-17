@@ -23,7 +23,7 @@ export const Contact: React.FC = () => {
     {
       icon: MapPin,
       title: "Address",
-      primary: "1234 Distribution Center Dr",
+      primary: "4711 Peachtree Industrial Blvd, Ste 200, Berkeley Lake, GA 30092",
       secondary: "Atlanta, GA 30309",
       action: "https://maps.google.com"
     },
