@@ -75,7 +75,7 @@ export const About: React.FC = () => {
               </h2>
               
               <p className="text-lg text-muted-foreground leading-relaxed">
-                As the official distributor of Swetha Telugu Foods, we take pride in bringing the 
+                As the official distributor of <span className="text-secondary font-semibold">Swetha Telugu Foods</span>, we take pride in bringing the 
                 authentic flavors of traditional Telugu cuisine to businesses across the Southeast. 
                 Our commitment to quality and reliability has made us the preferred choice for 
                 restaurants, grocery stores, and food service providers.
@@ -86,8 +86,8 @@ export const About: React.FC = () => {
             <div className="grid gap-6">
               {highlights.map((highlight, index) => (
                 <div key={index} className="flex items-start space-x-4 p-4 rounded-lg bg-card border border-border/50 hover:border-primary/20 transition-smooth">
-                  <div className="flex-shrink-0 w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
-                    <highlight.icon className="w-6 h-6 text-primary" />
+                  <div className="flex-shrink-0 w-12 h-12 icon-container-3d rounded-lg flex items-center justify-center transition-smooth">
+                    <highlight.icon className="w-6 h-6 icon-3d-primary" />
                   </div>
                   <div>
                     <h3 className="font-heading font-semibold text-lg text-foreground mb-1">

@@ -75,9 +75,9 @@ export const Products: React.FC = () => {
             Our Product Range
           </Badge>
           
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-primary mb-6">
-            Authentic Swetha Telugu Foods
-          </h2>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-primary mb-6">
+              Authentic <span className="text-secondary">Swetha Telugu Foods</span>
+            </h2>
           
           <p className="text-lg text-muted-foreground leading-relaxed">
             Discover our comprehensive range of traditional Telugu foods, carefully selected and 
@@ -130,8 +130,8 @@ export const Products: React.FC = () => {
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {qualityPoints.map((point, index) => (
               <div key={index} className="text-center space-y-4">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto">
-                  <point.icon className="w-8 h-8 text-primary" />
+                <div className="w-16 h-16 icon-container-3d rounded-full flex items-center justify-center mx-auto transition-smooth">
+                  <point.icon className="w-8 h-8 icon-3d-primary" />
                 </div>
                 <div>
                   <h4 className="font-heading font-semibold text-lg text-foreground mb-2">
