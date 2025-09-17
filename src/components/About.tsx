@@ -1,7 +1,7 @@
 import React from 'react';
 import { Badge } from '@/components/ui/badge';
 import { CheckCircle, Users, MapPin, Clock } from 'lucide-react';
-import aboutImage from '@/assets/about-us-team.jpg';
+import aboutImage from '@/assets/about-us-team.png';
 
 export const About: React.FC = () => {
   const highlights = [
