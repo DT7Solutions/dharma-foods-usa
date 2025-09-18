@@ -1,26 +1,32 @@
 import React from 'react';
 import { Badge } from '@/components/ui/badge';
-import { CheckCircle, Users, MapPin, Clock } from 'lucide-react';
+import { ShieldCheck, Scale, Handshake, Heart } from 'lucide-react';
 import aboutImage from '@/assets/about-us-team.png';
 
 export const About: React.FC = () => {
   const highlights = [
-    {
-      icon: Users,
-      title: "Expert Team",
-      description: "Dedicated professionals with deep understanding of traditional foods"
-    },
-    {
-      icon: MapPin,
-      title: "Wide Coverage",
-      description: "Serving 5 states with reliable distribution network"
-    },
-    {
-      icon: Clock,
-      title: "Timely Delivery",
-      description: "Consistent on-time delivery to keep your business running"
-    }
-  ];
+  {
+    icon: ShieldCheck,
+    title: "Integrity",
+    description: "We uphold honesty and transparency in every business relationship."
+  },
+  {
+    icon: Scale,
+    title: "Fairness",
+    description: "Committed to equitable practices that benefit our partners and customers."
+  },
+  {
+    icon: Handshake,
+    title: "Respect",
+    description: "We value every partnership and treat everyone with dignity."
+  },
+  {
+    icon: Heart,
+    title: "Love",
+    description: "Passionately bringing authentic Telugu flavors with care and dedication."
+  }
+];
+
 
 
   return (

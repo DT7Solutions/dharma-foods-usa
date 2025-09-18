@@ -74,7 +74,7 @@ export const ServiceAreas: React.FC = () => {
             Service Coverage
           </Badge>
            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-primary mb-6">
-              Serving 5 States <span className="text-secondary">Across the Southeast</span>
+              Serving 5 States <span className="text-secondary">Across the USA</span>
             </h2>
           {/* <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold bg-gradient-states  text-transparent mb-6">
             Serving 5 States Across the Southeast
