@@ -87,9 +87,9 @@ export const Partnership: React.FC = () => {
                               <div className="absolute inset-0 bg-gradient-to-t from-primary/60 via-transparent to-transparent"></div>
 
                               {/* Floating Badge */}
-                              <div className="absolute top-6 right-6 bg-accent text-accent-foreground px-4 py-2 rounded-full font-semibold shadow-accent">
+                              {/* <div className="absolute top-6 right-6 bg-accent text-accent-foreground px-4 py-2 rounded-full font-semibold shadow-accent">
                                   Premium Quality
-                              </div>
+                              </div> */}
                           </div>
 
 
