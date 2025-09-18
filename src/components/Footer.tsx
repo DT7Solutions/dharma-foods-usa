@@ -63,13 +63,13 @@ export const Footer: React.FC = () => {
               <div className="flex items-center space-x-3 text-sm">
                 <Phone className="w-4 h-4 icon-3d-accent flex-shrink-0" />
                 <a href="tel:+15551234567" className="text-white/80 hover:text-white transition-smooth">
-                  +1 (555) 123-4567
+                  +1 (302) 373-6723
                 </a>
               </div>
               <div className="flex items-center space-x-3 text-sm">
                 <Mail className="w-4 h-4 icon-3d-accent flex-shrink-0" />
-                <a href="mailto:sales@dharmafoodsusa.com" className="text-white/80 hover:text-white transition-smooth">
-                  sales@dharmafoodsusa.com
+                <a href="mailto:satish@dharmafoodsusa.com" className="text-white/80 hover:text-white transition-smooth">
+                  satish@dharmafoodsusa.com
                 </a>
               </div>
               <div className="flex items-center space-x-3 text-sm">

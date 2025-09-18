@@ -9,16 +9,16 @@ export const Contact: React.FC = () => {
     {
       icon: Phone,
       title: "Phone",
-      primary: "+1 (555) 123-4567",
-      secondary: "Toll-free: 1-800-DHARMA",
-      action: "tel:+15551234567"
+      primary: "+1 (302) 373-6723",
+      secondary: "",
+      action: "tel:  +1 302 373-6723"
     },
     {
       icon: Mail,
       title: "Email",
-      primary: "sales@dharmafoodsusa.com",
-      secondary: "info@dharmafoodsusa.com",
-      action: "mailto:sales@dharmafoodsusa.com"
+      primary: "satish@dharmafoodsusa.com",
+      secondary: "satish@dharmafoodsusa.com",
+      action: "mailto:satish@dharmafoodsusa.com"
     },
     {
       icon: MapPin,
@@ -197,10 +197,10 @@ export const Contact: React.FC = () => {
                     For urgent delivery issues or time-sensitive orders
                   </p>
                   <a 
-                    href="tel:+15551234567"
+                    href="tel:  +1 302 373-6723"
                     className="text-destructive font-semibold hover:underline"
                   >
-                    +1 (555) 123-4567
+                    +1 (302) 373-6723
                   </a>
                 </div>
               </CardContent>
